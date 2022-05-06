@@ -1,0 +1,7 @@
+image: pedbap/minimp4-fuzz:2
+duration: 90
+project: minimp4-fuzz
+target: minimp4
+cmds:
+  - cmd: /mp4_fuzz @@
+    afl: true
